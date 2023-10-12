@@ -1,4 +1,4 @@
-/* CELL CLASS */
+/* CELL AND DYNAMIC CLASSES */
 
 .cell {
   border: 1px solid black;
@@ -6,12 +6,43 @@
   width: 60px;
   height: 60px;
   box-sizing: border-box;
-  background: rgb(213, 219, 223);
   background: linear-gradient(
     0deg,
     rgba(213, 219, 223, 1) 0%,
     rgba(255, 255, 255, 1) 69%
   );
+  margin: -2px;
+}
+
+.cell h4 {
+  margin-top: 0;
+  text-align: left;
+}
+
+.cell > div {
+  width: 10px;
+  height: 10px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border-radius: 50%;
+  float: right;
+}
+
+.checkedNumber {
+  background-color: red;
+}
+/* GENERAL */
+
+body {
+  margin: 0;
+}
+/* MAIN */
+
+main {
+  width: 90%;
+  border: 1.5px solid rgb(25, 25, 173);
+  margin-inline: auto;
 }
 
 /* HEADER */
@@ -26,19 +57,24 @@ header {
 }
 
 header h1 {
-  font-size: 2rem;
+  font-size: 4rem;
   text-align: center;
-}
-
-/* MAIN */
-
-main {
-  width: 90%;
-  border: 1.5px solid rgb(25, 25, 173);
+  margin: 0;
+  padding: 30px 0;
 }
 
 /* BUTTON SECTION */
 
 #buttonSection {
   text-align: center;
+  padding-bottom: 40px;
+}
+
+/* TABLE SECTION */
+
+#tableSection {
+  width: 50%;
+  text-align: center;
+  margin-inline: auto;
+  padding-bottom: 30px;
 }
