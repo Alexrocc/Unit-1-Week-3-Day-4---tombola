@@ -37,6 +37,6 @@ const cellCreation = function(){
             const dot = document.querySelectorAll(".cellDot")
             const dotArray = Array.from(dot)
     
-            dotArray[extraction].classList.add("checkedNumber")
+            dotArray[extraction - 1].classList.add("checkedNumber")
         }
     })
