@@ -14,19 +14,18 @@
   margin: -2px;
 }
 
-.cell h4 {
+.cellH4 {
   margin-top: 0;
   text-align: left;
 }
 
-.cell > div {
+.cellDot {
   width: 10px;
   height: 10px;
   margin: 0;
-  padding: 0;
   box-sizing: border-box;
+  display: inline-block;
   border-radius: 50%;
-  float: right;
 }
 
 .checkedNumber {
